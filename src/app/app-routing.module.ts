@@ -1,0 +1,17 @@
+import { AuthGuard } from './shared/auth.guard';
+import { LoginComponent } from './login/login.component';
+import { VehiclesComponent } from './vehicles/vehicles.component';
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
+
+const routes: Routes = [
+  {path:'vehicle',component:VehiclesComponent},
+  {path:'login',component:LoginComponent}
+
+];
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
+})
+export class AppRoutingModule { }

@@ -1,0 +1,26 @@
+/*
+ * File: login.component.css
+ * Authors: Hegedus Gyorgy
+ * Copyright: 2022, Hegedus Gyorgy
+ * Group: Szoft II/N
+ * Date: 2022-02-24
+ * Github: https://github.com/Gyuri21
+ * Licenc: GNU GPL
+ */
+
+ input{
+     border: 2px solid green;
+     border-radius: 10px;
+ }
+ button{
+     background-color: green;
+     font-weight: bold;
+     font-size: large;
+ }
+ label{
+     font-size: large;
+     font-weight: bold;
+ }
+ h1{
+    color: green;
+ }

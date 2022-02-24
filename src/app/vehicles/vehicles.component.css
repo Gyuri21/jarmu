@@ -1,0 +1,32 @@
+/*
+ * File: vehicles.component.css
+ * Authors: Hegedus Gyorgy
+ * Copyright: 2022, Hegedus Gyorgy
+ * Group: Szoft II/N
+ * Date: 2022-02-24
+ * Github: https://github.com/Gyuri21
+ * Licenc: GNU GPL
+*/
+button{
+    margin-top: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+
+input{
+    border:2px solid green ;
+}
+p{
+    font-size: large;
+    font-weight: bold;
+    margin: 10px;
+}
+li{
+    font-size: large;
+    font-weight: bold;
+    margin: 20px;
+}
+h1{
+    color: green;
+    font-weight: bold;
+}
