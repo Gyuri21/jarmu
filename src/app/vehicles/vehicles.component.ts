@@ -46,6 +46,8 @@ export class VehiclesComponent implements OnInit {
     let sold = this.registerForm.value.sold;
     this.apivehicles.addNewCar(palte, brand, year, price,sold).subscribe((res) => {
       console.log(res);
+      alert("A hozzadas sikeres volt");
+      this.getVehicles();
     });
   }
 

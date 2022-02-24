@@ -11,6 +11,7 @@
  input{
      border: 2px solid green;
      border-radius: 10px;
+     width: 500px;
  }
  button{
      background-color: green;
@@ -23,4 +24,13 @@
  }
  h1{
     color: green;
+    text-align: center;
+    margin: 30px;
+    font-weight: bold;
+ }
+ .inputs{
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     margin-top: 70px;
  }
